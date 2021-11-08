@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+
+    <title>Tercera entrega proyecto final</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo.png" alt="Logo Ajó Juguetes" width="30" height="24" class="d-inline-block align-text-top logoAjoNav">
+            Ajó Juguetes
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <main id="items" class="col-sm-8 row"></main>
+            <aside class="col-sm-4">
+                <h2>Carrito de productos</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <p class="text-right">Total: $<span id="total"></span></p>
+                <button id="boton-vaciar" class="btn btn-secondary">Vaciar carrito</button>
+            </aside>
+            <footer class="contenidoFooter">
+              <img class="logoAjoFooter" src="./assets/logo.png" alt="Logo Ajó Juguetes">
+              <div>
+                <a href="#" class="iconosRedes"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="iconosRedes"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="iconosRedes"><i class="fab fa-whatsapp"></i></a>
+              </div>
+              <div class="infoFooter">
+                <h5><strong>ajojuguetes@gmail.com</strong></h5>
+                <h5><strong>3516524121</strong></h5>
+                <h5><strong>Envíos a todo el país</strong></h5>
+              </div>
+              <div id="map"></div>
+            </footer>
+        </div>
+    </div>
+
+
+ 
+
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+  </body>
+</html>

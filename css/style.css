@@ -1,0 +1,45 @@
+.container {
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	height: 100vh;
+	background-color: #FAEEE0;
+}
+
+header{
+	background-color: #DBD0C0;
+}
+
+.logoAjoNav{
+		width: 4rem;
+		height: 4rem;
+}
+footer { 
+	background-color: #CDF0EA; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: left; 
+	align-items: center; 
+}
+.logoAjoFooter { 
+	width: 4rem; 
+	height: 4rem; 
+	margin: 7px; 
+}
+.contenidoFooter { 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between; 
+	align-items: center; 
+} 
+.iconosRedes { 
+	text-decoration: none; 
+	margin: 0.5rem; 
+	font-size: 2rem; 
+	color: black; 
+} 
+.infoFooter { 
+	margin: 0.5rem; 
+}
+#map {
+	height: 7rem;
+	width: 10rem;
+}
